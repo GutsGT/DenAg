@@ -16,7 +16,7 @@
 			</div>
 			<div id="menu">
 				<ul>
-					<li class="current_page_item"><a href="telaDenuncia" accesskey="1" title="">Fazer denúncia</a></li>
+					<li class="current_page_item"><a href="telaDenuncia" accesskey="1" title="">Fazer denúncia cara de cú</a></li>
 				</ul>
 			</div>
 		</div>
