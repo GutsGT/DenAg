@@ -55,14 +55,19 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
+
                                                 <label style="color: black"><b>Cidade:</b></label>
-                                                <input  type="text"
-                                                        id="city"
-                                                        name="city" 
-                                                        class="form-control border-input" 
+                                                
+                                                <select name="city"
+                                                        id="city" 
+                                                        class="form-control border-input"
                                                         style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" 
-                                                        placeholder="Caicó"
                                                 >
+                                                    @foreach($cities as $city)
+                                                        <option value="{{$city->id}}">{{$city->name}}</option>
+                                                    @endforeach
+                                                </select>
+                                                <br/>
                                                 <label style="color: black">
                                                     <b>Endereço:</b>
                                                 </label>
@@ -73,6 +78,7 @@
                                                         style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" 
                                                         placeholder="Rua Do Tio, 550"
                                                 >
+                                                <br/>
                                                 <label style="color: black">
                                                     <b>Deseja fazer algum complemento?</b>
                                                 </label>

@@ -9,6 +9,9 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller
 {
+
+    private $totalPage = 3;
+
     public function index(){
         return view ('index');
     }
@@ -17,13 +20,15 @@ class EventController extends Controller
         $sessao = auth()->user();
         $city = City::where('id', $sessao->city_id)->first();
         $complaints = Complaint::where('city_id', $city->id);
-        $teste = '';
-
-        return view('dashboard', ['sessao' => $sessao, 'complaints' => $complaints, 'teste' => $teste]);
+        $complaints = $complaints->where('status', 0)->paginate($this->totalPage);
+        
+        return view('dashboard', ['sessao' => $sessao, 'complaints' => $complaints]);
     }
 
     public function telaDenuncia(){
-        return view ('telaDenuncia');
+        $cities = City::all();
+        $cities = $cities->sortBy('name');
+        return view ('telaDenuncia', ['cities' => $cities]);
     }
 
     public function salvarDenuncia(Request $request){
@@ -32,12 +37,18 @@ class EventController extends Controller
         
         $denuncia->address    = $request->address;
         $denuncia->complement = $request->complement;
+        $denuncia->city_id = $request->city;
+        $denuncia->status = 0;
 
-        $findCity = City::where('name', $request->city)->first();
-        $denuncia->city_id = $findCity->id;
-        
         $denuncia->save();
         
         return view('telaObrigado');
+    }
+
+    public function fecharDenuncia($id){
+
+        
+
+        return redirect('dashboard');
     }
 }

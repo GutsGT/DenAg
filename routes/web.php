@@ -17,7 +17,9 @@ use App\Http\Controllers\EventController;
 //Usuário Comum
 Route::get('/', [EventController::class, 'index']);
 Route::get('telaDenuncia', [EventController::class, 'telaDenuncia']);
+Route::get('fecharDenuncia/{id}', [EventController::class, 'fecharDenuncia']);
 Route::post('obrigado', [EventController::class, 'salvarDenuncia']);
+
 
 
 //Usuário Master
