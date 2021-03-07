@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.d-flex{
+    display: flex !important;
+}
+
+.justify-center{
+    justify-content: center !important;
+}
+
+.align-center{
+    justify-content: center !important;
+}
+
+.flex-column{
+    flex-direction: column !important;
+}
+
+.comparacao-card *{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.comparacao-card{
+    padding: 30px;
+}
+
+.card-shadow{
+    box-shadow: 0px 10px 30px rgba(33, 47, 66, 0.322) !important;
+    margin: 0px 8%;
+    margin-bottom: 50px;
+}
+
+.comparacao-title{
+    margin-bottom: 30px;
+    color: #144E8D;
+}
+
+.comparacao-title > h1{
+    font-weight: 900 !important;
+}
+
+.table-without-border *{
+    border: none !important;
+}
+
+.table-without-border > tbody > tr > td{
+    font-weight: 500;
+}
+
+.table-without-border > tbody > tr:nth-child(even) {
+    background-color: #f2f2f2 !important;
+}
+
+.card-header-table{
+    background: #144E8D;
+    padding-bottom: 20px !important;
+}
+
+.custom-border-input{
+    background-color: transparent !important;
+    border-radius: 0px !important; 
+    border-color: #c7d4e2 !important;
+    border-width: 3px !important;
+    color: #FFFFFF !important;
+    margin: -8px 0px;
+    width: 60%;
+}
+
+.card-header-table > h6{
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+    margin: 6px 0px !important;
+}
+
+.custom-select-card{
+    background: none;
+    color: #FFF;
+    border: 2px solid;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin: -10px 0px;
+}
+
+.custom-select-card > option{
+    color: black;
+}
+
+.btn-custom-border{
+    color:#144E8C;
+    background-color: transparent !important; 
+    border-radius: 0px;
+    border-color: #144E8C; 
+    border-width: 3px;
+    height: 40px;
+    width: min-content !important;
+    margin: 0 auto;
+}
