@@ -170,11 +170,10 @@
       var datas = [];
       function drawChart() {
 
-        var dataAtual = 1;
-        //new Date().getDate()
+
+        var dataAtual = new Date().getDate();
         
-        var month = 4;
-        //new Date().getMonth()+1
+        var month = new Date().getMonth()+1;
 
         for(var f = 6 ; f > -1 ; f--){ 
           data = dataAtual - f;
@@ -206,13 +205,13 @@
         data.addColumn('number');
         
         data.addRows([
-          [datas[6], 1],
-          [datas[5], 5],
-          [datas[4], 3],
-          [datas[3], 9],
-          [datas[2], 15],
-          [datas[1], 6],
-          [datas[0], 7]
+          [datas[6], {{$quantDenCidade[6]}}],
+          [datas[5], {{$quantDenCidade[5]}}],
+          [datas[4], {{$quantDenCidade[4]}}],
+          [datas[3], {{$quantDenCidade[3]}}],
+          [datas[2], {{$quantDenCidade[2]}}],
+          [datas[1], {{$quantDenCidade[1]}}],
+          [datas[0], {{$quantDenCidade[0]}}]
         ]);
 
         // Set chart options
