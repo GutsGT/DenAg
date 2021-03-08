@@ -76,13 +76,9 @@
                                                         name="password"
                                                         required autocomplete="current-password"
                                                 >
-                                                <b>
-                                                    <a style ="color: #a9a9a9" href="esqsenha.html">Esqueci minha senha</a>
-                                                </b>
                                             </div>
                                         </div>       
                                     </div>
-
                                     <div class="text-right">
                                         <button type="submit" 
                                         class="btn btn-info btn-fill btn-wd" 
