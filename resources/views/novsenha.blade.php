@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/doenca.png">
 
     <title>Denúncias de aglomerações por COVID-19</title>
 
