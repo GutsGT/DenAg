@@ -4,6 +4,7 @@
 <title>Denúncias de aglomerações COVID-19</title>
 <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
 <link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="icon" type="image/png" sizes="96x96" href="assets/img/doenca.png">
 
 <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />

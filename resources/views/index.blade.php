@@ -4,7 +4,7 @@
 	<title>Denúncias de aglomerações COVID-19</title>
 	<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
 	<link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
-
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/doenca.png">
 	<!-- Bootstrap core CSS     -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -26,9 +26,9 @@
 							<span class="img">
 								<img height="100" width="100" src="assets/img/doenca.png">
 							</span>
-							<h1 style="font-family: 'Varela Round', sans-serif;font-weight: 800;">Bem-vindo ao sistema de denúncias de aglomerações por covid-19.</h1>
+							<h1 style="font-family: 'Varela Round', sans-serif;font-weight: 800; font-size: 44px;">Bem-vindo ao sistema de denúncias de aglomerações por covid-19.</h1>
 							<br>
-							<span>Denúncias 100% anônimas.</span>
+							<span style="font-size: 16px;">Denúncias 100% anônimas.</span>
 						</div>
 						<div id="menu">
 							<ul>
