@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Denúncias de aglomerações COVID-19</title>
-<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-<link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="icon" type="image/png" sizes="96x96" href="assets/img/doenca.png">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Denúncias de aglomerações COVID-19</title>
+	<link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+	<link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/doenca.png">
 
-<!-- Bootstrap core CSS     -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Bootstrap core CSS     -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!--  Paper Dashboard core CSS    -->
-    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+	<!--  Paper Dashboard core CSS    -->
+	<link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
 
-    <!--  CSS for Demo Purpose, dont include it in your project     -->
-    <link href="assets/css/demo.css" rel="stylesheet" />
+	<!--  CSS for Demo Purpose, dont include it in your project     -->
+	<link href="assets/css/demo.css" rel="stylesheet" />
 </head>
 <body style="font-family: 'Varela Round', sans-serif; font-size: 11pt; color: #000000;background: #fff;">
 	<div id="wrapper1 d-flex" style="background: #fff;">
