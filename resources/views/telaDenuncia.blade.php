@@ -63,7 +63,7 @@
                                                         id="city" 
                                                         class="form-control border-input"
                                                         style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" 
-                                                >
+                                                required>
                                                     @foreach($cities as $city)
                                                         <option value="{{$city->id}}">{{$city->name}}</option>
                                                     @endforeach
@@ -78,7 +78,7 @@
                                                         class="form-control border-input" 
                                                         style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" 
                                                         placeholder="Rua Do Tio, 550"
-                                                >
+                                                required>
                                                 <br/>
                                                 <label style="color: black">
                                                     <b>Deseja fazer algum complemento?</b>
@@ -89,7 +89,7 @@
                                                         class="form-control border-input" 
                                                         style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" 
                                                         placeholder="Aglomeração grande"
-                                                >
+                                                required>
                                             </div>
                                             <br>
                                         </div>                                         

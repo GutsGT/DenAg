@@ -51,7 +51,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label style="color: black"><b>Email:</b></label>
-                                                <input type="text" class="form-control border-input" style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" placeholder=" exemplo@hotmail.com" >
+                                                <input type="text" class="form-control border-input" style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" placeholder=" exemplo@hotmail.com" required>
                                             </div>
 
                                             <div class="text-left">

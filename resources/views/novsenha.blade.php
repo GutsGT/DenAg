@@ -51,7 +51,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label style="color: black"><b>Nova senha:</b></label>
-                                                <input type="text" class="form-control border-input" name = "email" style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" placeholder="Nova senha">
+                                                <input type="text" class="form-control border-input" name = "email" style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" placeholder="Nova senha" required>
 
                                                 <br>
                                             </div>
@@ -62,7 +62,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label style="color: black"><b>Confirmar senha:</b></label>
-                                                <input type="text" class="form-control border-input" name = "email" style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" placeholder="Nova senha">
+                                                <input type="text" class="form-control border-input" name = "email" style="background-color: white; border-radius: 0px; border-color: #c7d4e2; border-width: 3px" placeholder="Nova senha" required>
                                             </div>
                                         </div>                                         
                                     </div>
